@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e8ab6ca-5d1d-4bdc-bdc8-88022330e4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/geoIP2_Country_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/GeoIP2-Country.mmdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,5 +72,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1178" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605253955183">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="1178" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/54.27.1866.1053@54.27.1866.1053" timestamp="1605253955183" />
   </component>
 </project>

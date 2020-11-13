@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 path=~/go/src/geo-server/
 

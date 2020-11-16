@@ -1,10 +1,13 @@
-#! /bin/bash
+#! /bin/sh
 
-path=~/go/src/geo-server/
+cd ~/go/src/geo-server/
+pwd
 
-git rm -f src/main/resources/db/GeoIP2-Country.mmdb
-mv src/main/resources/GeoIP/GeoIP2-Country.mmdb src/main/resources/db/
-git add src/main/resources/db/GeoIP2-Country.mmdb
-git commit -m "update db"
+#git init
+git rm -f /home/ian/go/src/geo-server/src/main/resources/db/GeoIP2-Country.mmdb
+cp /home/ian/go/src/geo-server/src/main/resources/GeoIP/GeoIP2-Country.mmdb /home/ian/go/src/geo-server/src/main/resources/db/
+git add ./src/main/resources/db/
+git commit -m "update db5"
 git push origin master
+echo "exec successful!"
 
